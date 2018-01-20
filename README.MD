@@ -4,7 +4,7 @@ To build an internal reporting tool that will use information from the database 
 on a newspaper site.
 
 ## Assumptions
-User knows and can execute Python 3, SQL, Postgresql and database software (provided by a Linux virtual machine) well.
+User knows and can execute Python 2, SQL, Postgresql and database software (provided by a Linux virtual machine) well.
 
 
 ### Design of this Project
@@ -22,7 +22,8 @@ Instead, it will connect to that database, use SQL queries to analyze the log da
 
 ###Project files are:
 1. newsdata.sql
-	* the database for the Project in SQL format.
+	* link to database for the Project in SQL format:
+	https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip
 2. dbCodeLogsAnalysisProject.py
 	* the code written in Python to connect to the database and execute SQL queries and print out the results.
 3. README.MD
@@ -30,8 +31,8 @@ Instead, it will connect to that database, use SQL queries to analyze the log da
 
 ### How to run the Project
 1. Download the project file.
-2. Unzip the project file and put it in the directory which is shared with your virtual machine.
-3. From the terminal, to load the data, cd into the virtual machine directory and use the command psql -d "project file" -f newsdata.sql.
+2. Unzip the project file to folder and put it in the directory which is shared with your virtual machine.
+3. From the terminal, to load the data, cd into the virtual machine directory and use the command *psql -d news -f newsdata.sql*.
 4. After database is connected, execute command:
 	* python dbCodeLogsAnalysisProject.py
 
@@ -43,6 +44,3 @@ Free for distribution
 
 #####Disclaimer
 No liability will be accepted by the author.
-
-
- 
