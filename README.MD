@@ -20,7 +20,7 @@ Instead, it will connect to that database, use SQL queries to analyze the log da
 
 3. On which days did more than 1% of requests lead to errors?
 
-###Project files are:
+### Project files are:
 1. newsdata.sql
 	* link to database for the Project in SQL format:
 	https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip
@@ -36,11 +36,11 @@ Instead, it will connect to that database, use SQL queries to analyze the log da
 4. After database is connected, execute command:
 	* python dbCodeLogsAnalysisProject.py
 
-#####Acknowledgement
+#### Acknowledgement
 The newsdata.sql is provided by Udacity
 
-#####License
+#### License
 Free for distribution
 
-#####Disclaimer
+#### Disclaimer
 No liability will be accepted by the author.
